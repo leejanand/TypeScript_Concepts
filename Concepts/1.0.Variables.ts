@@ -11,7 +11,9 @@
 //Uasge of different keywords:
 //var - We do not use this in Modern JS/TS. Avoid var because it has function scope and can lead to unexpected issues.
 //let - Use let when you need a variable that can change.
-//const - Use const when the variable value should not change.
+//const - Use const when the variable value should not change and prevents reassignment of the variable, 
+// but it does not make objects or arrays immutable.
+// Their internal properties can still be modified.
 
 
 

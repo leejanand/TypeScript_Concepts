@@ -39,7 +39,7 @@ console.log(res); //10
 console.log(x); //9
 */
 
-let res:number=--x;
+let res:number=x++;
 
 console.log(res); //9
 console.log(x); //9

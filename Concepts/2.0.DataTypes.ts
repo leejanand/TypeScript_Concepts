@@ -1,5 +1,5 @@
 /*
-1) Premitive Data Types(Built-in)
+1) Primitive Data Types(Built-in)
 Number
 String
 Boolean

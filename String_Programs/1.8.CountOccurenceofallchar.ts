@@ -1,8 +1,8 @@
-function countOccurrences(str: string): Record<string, number> {
-    const charCount: Record<string, number> = {};
+function countOccurrences(str: string): Map<string, number> {
+    const charCount: Map<string, number> = new Map();
 
     for (const char of str) {
-        charCount[char] = (charCount[char] ?? 0) + 1;
+        charCount.set(char, (charCount.get(char) ?? 0) + 1);
     }
 
     return charCount;
