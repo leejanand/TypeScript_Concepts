@@ -169,3 +169,17 @@ console.log(b)
 const c = 30;
 console.log(c)
 
+
+
+//Example 1: Using variables in  method overloading
+
+    
+
+
+
+
+
+
+
+
+
