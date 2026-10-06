@@ -8,3 +8,4 @@ function fibonacciSeries(n: number): number[] {
 }   
 console.log(fibonacciSeries(5));  // Output: [0, 1, 1, 2, 3]
 console.log(fibonacciSeries(10)); // Output: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
+

@@ -30,3 +30,4 @@ const { chromium } = require('playwright');  // NOT @playwright/test
     await browser.close();
 
 })();
+

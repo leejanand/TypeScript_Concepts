@@ -1,15 +1,21 @@
-function ReplaceVowelsWithX(str: string): string {
-    const vowels = "aeiouAEIOU";
-    let result = "";
-
-    for (const char of str) {
-
-        if (vowels.indexOf(char) !== -1) {
-            result += 'X';
-        } else {
-            result += char;
+function ReplaceVowelsWithX(str:string):string
+{
+    const vowels:Set<string> = new Set(['a','e','i','o','u','A','E','I','O','U'])
+    
+    let result:string ="";
+    
+    for(const c of str)
+    {
+        if(vowels.has(c))
+        {
+            result+='X';
+        }
+        else{
+            result+=c;
         }
     }
-    return result;
+    return result
+
 }
-console.log(ReplaceVowelsWithX("Hello, TypeScript!")); // Output: HXllX, TXpXScrXpt!
+
+console.log(ReplaceVowelsWithX("leejanand")); // Output: lXXjXnXnd
