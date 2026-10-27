@@ -1,13 +1,12 @@
 function uniqcharac(str:string):string[]
 {
 const freq:Record<string,number> = {};
+const result:string[] =[];
 
 for (const ch of str)
 {
 freq[ch] = (freq[ch] || 0) + 1;
 }
-
-const result:string[] =[];
 
 for(const ch of str)
 {

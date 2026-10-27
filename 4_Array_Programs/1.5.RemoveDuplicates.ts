@@ -14,7 +14,8 @@ console.log(uniqueStrings.join(",")); // Output: apple, banana, orange
 function removeDuplicates(arr: number[]): number[] {
   const result: number[] = [];
   for (const num of arr) {
-    if (!result.includes(num)) {
+    if (!result.includes(num)) //
+    {
       result.push(num);
     }
   }

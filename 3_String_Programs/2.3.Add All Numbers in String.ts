@@ -5,7 +5,7 @@ for(const ch of str)
 {
 if(ch>='0' && ch<='9')
 {
-sum+=parseInt(ch);
+sum+=parseInt(ch); // Convert character to number and add to sum
 }
 }
 

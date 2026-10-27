@@ -3,7 +3,8 @@ function removeVowels(str: string): string {
     let result: string = "";
 
     for (const char of str) {
-        if (!vowels.has(char)) {
+        if (!vowels.has(char)) // Check if the character is not a vowel
+             {
             result += char;
         }
     }

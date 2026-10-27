@@ -1,6 +1,6 @@
-const { chromium } = require('playwright');  // NOT @playwright/test
+import {chromium, test} from '@playwright/test';
 
-(async () => {
+test('Headless Execution',  async () => {
 
   // Manually launch browser with headless configuration
   
@@ -29,5 +29,5 @@ const { chromium } = require('playwright');  // NOT @playwright/test
 
     await browser.close();
 
-})();
+});
 
