@@ -6,7 +6,7 @@ function CountVowelsandConsonants(str: string): { vowels: number; consonants: nu
     for (let i = 0; i < str.length; i++) {
         const char: string = str[i];
 
-        if (vowels.indexOf(char) !== -1) {
+        if (vowels.includes(char)) {
 
             vowelsCount++;
         } else if (char.toLowerCase() >= 'a' && char.toLowerCase() <= 'z') {

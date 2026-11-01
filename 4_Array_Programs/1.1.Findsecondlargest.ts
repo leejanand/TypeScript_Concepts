@@ -5,7 +5,7 @@ function secondLargest(arr: number[]) {
       { second = max;
          max = n; 
         }
-    else if (n > second && n !== max) 
+    else if (n > second && n < max) 
       second = n;
   }
   return second;

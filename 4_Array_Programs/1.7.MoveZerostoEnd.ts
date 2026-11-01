@@ -1,4 +1,4 @@
-function movezero(num:number[]):number[]
+function movezeroend(num:number[]):number[]
 {
     let result:number[] =[];
     
@@ -16,4 +16,25 @@ function movezero(num:number[]):number[]
     return result;
 }
 
-console.log(movezero([0,1,0,3,12])); // Output: [1, 3, 12, 0, 0]
+console.log(movezeroend([0,1,0,3,12])); // Output: [1, 3, 12, 0, 0]
+
+function movezerobegin(num:number[]):number[]
+{
+    let result:number[] =[];
+    
+    for(const n of num)
+    {
+    if(n==0)
+    {
+        result.unshift(n);
+    }
+    else
+    {
+        result.push(n)
+    }
+}
+    return result;
+}
+
+console.log(movezerobegin([0,1,0,3,12])); // Output: [1, 3, 12, 0, 0]
+

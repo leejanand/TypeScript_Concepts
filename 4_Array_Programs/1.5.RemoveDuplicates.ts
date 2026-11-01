@@ -23,3 +23,4 @@ function removeDuplicates(arr: number[]): number[] {
 }
 
 console.log(removeDuplicates([2,7,8,10,4,8,7,10]));
+
